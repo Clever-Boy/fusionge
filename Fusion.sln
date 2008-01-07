@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxFactory", "BoxFactory\BoxFactory.vcproj", "{4707F673-E046-4DEA-B397-B4B9233636EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691} = {CECF4DD1-DD88-4446-B0CB-4D75274E5691}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Main.vcproj", "{2084A3BC-9252-4537-8967-19E5989B003B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691} = {CECF4DD1-DD88-4446-B0CB-4D75274E5691}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fusion", "Engine\Engine.vcproj", "{CECF4DD1-DD88-4446-B0CB-4D75274E5691}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereFactory", "SphereFactory\SphereFactory.vcproj", "{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691} = {CECF4DD1-DD88-4446-B0CB-4D75274E5691}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factories", "Factories", "{1FB33E3D-6E2B-419D-AA7A-0266B8DE4C28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VehicleFactory", "CarFactory\CarFactory.vcproj", "{A9656556-AE2C-4605-BD84-CE5F12BBEC06}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691} = {CECF4DD1-DD88-4446-B0CB-4D75274E5691}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CylinderFactory", "Cylinder\Cylinder.vcproj", "{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691} = {CECF4DD1-DD88-4446-B0CB-4D75274E5691}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectUniqueName0 = Main\\Main.vcproj
+		SccProjectName0 = \u0022$/LGE.root/LGE/Main\u0022,\u0020FFAAAAAA
+		SccLocalPath0 = Main
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = Engine\\Engine.vcproj
+		SccProjectName1 = \u0022$/LGE.root/LGE/Engine\u0022,\u0020CFAAAAAA
+		SccLocalPath1 = Engine
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName2 = SphereFactory\\SphereFactory.vcproj
+		SccProjectTopLevelParentUniqueName2 = Fusion.sln
+		SccProjectName2 = \u0022$/LGE.root/LGE/SphereFactory\u0022,\u0020WHAAAAAA
+		SccLocalPath2 = SphereFactory
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName3 = BoxFactory\\BoxFactory.vcproj
+		SccProjectTopLevelParentUniqueName3 = Fusion.sln
+		SccProjectName3 = \u0022$/LGE.root/LGE/BoxFactory\u0022,\u0020ZEAAAAAA
+		SccLocalPath3 = BoxFactory
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName4 = CarFactory\\CarFactory.vcproj
+		SccProjectTopLevelParentUniqueName4 = Fusion.sln
+		SccProjectName4 = \u0022$/LGE.root/LGE/CarFactory\u0022,\u0020FIAAAAAA
+		SccLocalPath4 = CarFactory
+		SccProvider4 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4707F673-E046-4DEA-B397-B4B9233636EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4707F673-E046-4DEA-B397-B4B9233636EB}.Debug|Win32.Build.0 = Debug|Win32
+		{4707F673-E046-4DEA-B397-B4B9233636EB}.Release|Win32.ActiveCfg = Release|Win32
+		{4707F673-E046-4DEA-B397-B4B9233636EB}.Release|Win32.Build.0 = Release|Win32
+		{2084A3BC-9252-4537-8967-19E5989B003B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2084A3BC-9252-4537-8967-19E5989B003B}.Debug|Win32.Build.0 = Debug|Win32
+		{2084A3BC-9252-4537-8967-19E5989B003B}.Release|Win32.ActiveCfg = Release|Win32
+		{2084A3BC-9252-4537-8967-19E5989B003B}.Release|Win32.Build.0 = Release|Win32
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691}.Debug|Win32.Build.0 = Debug|Win32
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691}.Release|Win32.ActiveCfg = Release|Win32
+		{CECF4DD1-DD88-4446-B0CB-4D75274E5691}.Release|Win32.Build.0 = Release|Win32
+		{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF}.Debug|Win32.Build.0 = Debug|Win32
+		{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF}.Release|Win32.ActiveCfg = Release|Win32
+		{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF}.Release|Win32.Build.0 = Release|Win32
+		{A9656556-AE2C-4605-BD84-CE5F12BBEC06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9656556-AE2C-4605-BD84-CE5F12BBEC06}.Debug|Win32.Build.0 = Debug|Win32
+		{A9656556-AE2C-4605-BD84-CE5F12BBEC06}.Release|Win32.ActiveCfg = Release|Win32
+		{A9656556-AE2C-4605-BD84-CE5F12BBEC06}.Release|Win32.Build.0 = Release|Win32
+		{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43}.Debug|Win32.Build.0 = Debug|Win32
+		{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43}.Release|Win32.ActiveCfg = Release|Win32
+		{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E30DBE1B-608E-4EF8-8BF2-2766B4A199FF} = {1FB33E3D-6E2B-419D-AA7A-0266B8DE4C28}
+		{4707F673-E046-4DEA-B397-B4B9233636EB} = {1FB33E3D-6E2B-419D-AA7A-0266B8DE4C28}
+		{A9656556-AE2C-4605-BD84-CE5F12BBEC06} = {1FB33E3D-6E2B-419D-AA7A-0266B8DE4C28}
+		{1BD2CDE9-5CA9-4505-B2FC-CFBABF6BFC43} = {1FB33E3D-6E2B-419D-AA7A-0266B8DE4C28}
+	EndGlobalSection
+EndGlobal
